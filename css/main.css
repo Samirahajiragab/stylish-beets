@@ -100,7 +100,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-  border-color: #8f2440;
+  background-color: #8f2440;
 }
 
 footer {
