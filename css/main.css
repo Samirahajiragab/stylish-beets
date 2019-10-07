@@ -1,0 +1,79 @@
+html {
+  background-color: #c9b5ab;
+  font-family: "PT Serif", serif;
+  font-weight: normal;
+  line-height: 1.5;
+  font-size: 1.125rem;
+}
+
+.beetroot {
+  font-style: oblique;
+}
+
+.vulgaris {
+  font-family: "PT Sans", sans-serif;
+  color: #8f2440;
+}
+
+main {
+  font-size: 1.125rem;
+}
+
+img {
+  width: 100%;
+}
+
+h1, h2 {
+  color: #3f1622;
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.125rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #8f2440;
+}
+
+figcaption {
+  font-size: .8rem;
+  font-style: italic;
+  text-align: center;
+}
+
+.vulgaris, .info, .tag {
+  color: #3f1622;
+}
+
+nav {
+  font-weight: bold;
+}
+
+nav ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #8f2440;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  font-family: "PT Serif", serif;
+}
+
+.days {
+  font-weight: bold;
+}
+
+.varieties {
+  list-style-type: lower-greek;
+  font-size: .8rem;
+}
