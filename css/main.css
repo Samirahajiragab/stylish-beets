@@ -1,36 +1,50 @@
 html {
   background-color: #c9b5ab;
   font-family: "PT Serif", serif;
-  font-weight: normal;
+  font-weight: lighter;
   line-height: 1.5;
   font-size: 1.125rem;
 }
 
-.beetroot {
-  font-style: oblique;
+body {
+  font-weight: normal;
+}
+
+.beta {
+  font-style: italic;
 }
 
 .vulgaris {
   font-family: "PT Sans", sans-serif;
   color: #8f2440;
+  font-size: 1rem;
 }
 
 main {
-  font-size: 1.125rem;
+  font-size: .8rem;
 }
 
 img {
   width: 100%;
 }
 
-h1, h2 {
+h1, h2, h3 {
   color: #3f1622;
   font-family: "PT Sans", sans-serif;
-  font-size: 1.125rem;
+  font-size: 1.5rem;
+}
+
+.energy, .carb, .fat, .protein {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.serv {
+  font-style: oblique;
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 nav a {
@@ -40,20 +54,43 @@ nav a {
 
 figcaption {
   font-size: .8rem;
+  font-weight: normal;
   font-style: italic;
-  text-align: center;
+  text-align: left;
 }
 
-.vulgaris, .info, .tag {
-  color: #3f1622;
+.day {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.love {
+  font-weight: normal;
+}
+
+.fact {
+  text-indent: 0;
+  text-align-last: left;
+}
+
+.weird {
+  font-size: 1.125rem;
+  font-weight: normal;
+  font-style: oblique;
+  text-align: left;
 }
 
 nav {
+  font-size: 1.125rem;
   font-weight: bold;
 }
 
 nav ol {
   list-style-type: none;
+}
+
+.varieties {
+  list-style-type: lower-greek;
 }
 
 a {
@@ -63,17 +100,11 @@ a {
 
 a:hover {
   text-decoration: underline;
+  background-color: #3f1622;
 }
 
 footer {
   font-family: "PT Serif", serif;
-}
-
-.days {
-  font-weight: bold;
-}
-
-.varieties {
-  list-style-type: lower-greek;
   font-size: .8rem;
+  font-weight: lighter;
 }
